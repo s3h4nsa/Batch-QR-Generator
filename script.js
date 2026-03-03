@@ -20,8 +20,8 @@ function generateQRCodes() {
 
     new QRCode(qrDiv, {
       text: text,
-      width: 150,
-      height: 150,
+      width: 300,
+      height: 300,
     });
 
     const label = document.createElement("div");
